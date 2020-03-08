@@ -1,0 +1,123 @@
+    ***Copied below text from the history file pushed to docker under the folder bulletin-board app***
+    
+    1  exit
+    2  sudo docker run ubuntu /bin/echo 'Hello World'
+    3  wxit
+    4  exit
+    5  docker --version
+    6  docker run hello-world
+    7  docker start
+    8  docker start --help
+    9  docker start -i
+   10  docker run hello-world
+   11  sudo systemctl enable docker
+   12  docker run hello-world
+   13  sudo usermod -a -G docker $USER
+   14  docker run hello-world
+   15  exit
+   16  ls
+   17  cd node-bulletin-board/
+   18  ls
+   19  cd bulletin-board-app/
+   20  ls
+   21  docker-machine ip default
+   22  docker ps
+   23  docker inspect
+   24  docker inspect ps
+   25  docker inspect --ps
+   26  docker inspect --help
+   27  docker ps --help
+   28  cd ..
+   29  docker ps
+   30  cd ..
+   31  docker ps
+   32  cd node-bulletin-board/
+   33  cd bulletin-board-app/
+   34  docker image ls
+   35  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   36  docker container ls -a
+   37  docker container rm --force bb
+   38  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   39  docker container ls
+   40  iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   41  service iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   42  service --help
+   43  iptables --help
+   44  chkconfig iptables
+   45  cd ..
+   46  service iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   47  iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   48  sudo iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   49  sudo iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 54321 -j ACCEPT
+   50  sudo service iptables save
+   51  docker container rm -f bb
+   52  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   53  docker container rm -f bb
+   54  cd node-bulletin-board/
+   55  cd bulletin-board-app/
+   56  docker container rm -f bb
+   57  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   58  docker container rm --force bb
+   59  docker login
+   60  docker image tag bulletinboard:1.0 varshaahuja/bulletinboard:1.0
+   61  docker image push varshaahuja/bulletinboard:1.0
+   62  git add .
+   63  git commit -m "for the build"
+   64  git push orgin master
+   65  git push origin master
+   66  docker pull varshaahuja/bulletinboard:1.0
+   67  git remote -v
+   68  git add .
+   69  git commit -m "test"
+   70  git push origin master
+   71  docker commit varshaahuja/bulletinboard:1.0
+   72  docker commit varshaahuja/bulletinboard
+   73  ls
+   74  history
+   75  history > history.txt
+   76  cat history.txt
+   77  git add .
+   78  git commit -m "adding history of commands to docker"
+   79  git config --global --edit
+   80  git push master origin
+   81  git push origin master
+   82  cd ..
+   83  pip install flask-login
+   84  exit
+   85  cd node-bulletin-board/
+   86  ls
+   87  cd bulletin-board-app/
+   88  git pull
+   89  git add .
+   90  ls
+   91  git remote -v
+   92  git remote rm
+   93  git remote rm origin
+   94  git remote -v
+   95  git remote add origin https://github.com/varshaahuja/docker.git
+   96  git remote -v
+   97  ls
+   98  git add .
+   99  git commit -m "pushing the steps to the docker rep"
+  100  git push origin master
+  101  git pull
+  102  git push origin master
+  103* 
+  104  ls
+  105  git push origin master
+  106  git fetch
+  107  git push origin master
+  108  cd ..
+  109  ls
+  110  git pull
+  111  git pull origin master
+  112  git pull origin branchname --allow-unrelated-histories
+  113  git pull origin master --allow-unrelated-histories
+  114  ls
+  115  cd bulletin-board-app/
+  116  git add .
+  117  git commit -m "pushing the steps to the docker rep"
+  118  git push origin master
+  119  git remote -v
+  120  history
+  121  history > history.txt
