@@ -73,3 +73,49 @@
    73  ls
    74  history
    75  history > history.txt
+   76  cat history.txt
+   77  git add .
+   78  git commit -m "adding history of commands to docker"
+   79  git config --global --edit
+   80  git push master origin
+   81  git push origin master
+   82  cd ..
+   83  pip install flask-login
+   84  exit
+   85  cd node-bulletin-board/
+   86  ls
+   87  cd bulletin-board-app/
+   88  git pull
+   89  git add .
+   90  ls
+   91  git remote -v
+   92  git remote rm
+   93  git remote rm origin
+   94  git remote -v
+   95  git remote add origin https://github.com/varshaahuja/docker.git
+   96  git remote -v
+   97  ls
+   98  git add .
+   99  git commit -m "pushing the steps to the docker rep"
+  100  git push origin master
+  101  git pull
+  102  git push origin master
+  103* 
+  104  ls
+  105  git push origin master
+  106  git fetch
+  107  git push origin master
+  108  cd ..
+  109  ls
+  110  git pull
+  111  git pull origin master
+  112  git pull origin branchname --allow-unrelated-histories
+  113  git pull origin master --allow-unrelated-histories
+  114  ls
+  115  cd bulletin-board-app/
+  116  git add .
+  117  git commit -m "pushing the steps to the docker rep"
+  118  git push origin master
+  119  git remote -v
+  120  history
+  121  history > history.txt
