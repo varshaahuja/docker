@@ -1,0 +1,75 @@
+    1  exit
+    2  sudo docker run ubuntu /bin/echo 'Hello World'
+    3  wxit
+    4  exit
+    5  docker --version
+    6  docker run hello-world
+    7  docker start
+    8  docker start --help
+    9  docker start -i
+   10  docker run hello-world
+   11  sudo systemctl enable docker
+   12  docker run hello-world
+   13  sudo usermod -a -G docker $USER
+   14  docker run hello-world
+   15  exit
+   16  ls
+   17  cd node-bulletin-board/
+   18  ls
+   19  cd bulletin-board-app/
+   20  ls
+   21  docker-machine ip default
+   22  docker ps
+   23  docker inspect
+   24  docker inspect ps
+   25  docker inspect --ps
+   26  docker inspect --help
+   27  docker ps --help
+   28  cd ..
+   29  docker ps
+   30  cd ..
+   31  docker ps
+   32  cd node-bulletin-board/
+   33  cd bulletin-board-app/
+   34  docker image ls
+   35  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   36  docker container ls -a
+   37  docker container rm --force bb
+   38  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   39  docker container ls
+   40  iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   41  service iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   42  service --help
+   43  iptables --help
+   44  chkconfig iptables
+   45  cd ..
+   46  service iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   47  iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   48  sudo iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   49  sudo iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 54321 -j ACCEPT
+   50  sudo service iptables save
+   51  docker container rm -f bb
+   52  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   53  docker container rm -f bb
+   54  cd node-bulletin-board/
+   55  cd bulletin-board-app/
+   56  docker container rm -f bb
+   57  docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+   58  docker container rm --force bb
+   59  docker login
+   60  docker image tag bulletinboard:1.0 varshaahuja/bulletinboard:1.0
+   61  docker image push varshaahuja/bulletinboard:1.0
+   62  git add .
+   63  git commit -m "for the build"
+   64  git push orgin master
+   65  git push origin master
+   66  docker pull varshaahuja/bulletinboard:1.0
+   67  git remote -v
+   68  git add .
+   69  git commit -m "test"
+   70  git push origin master
+   71  docker commit varshaahuja/bulletinboard:1.0
+   72  docker commit varshaahuja/bulletinboard
+   73  ls
+   74  history
+   75  history > history.txt
